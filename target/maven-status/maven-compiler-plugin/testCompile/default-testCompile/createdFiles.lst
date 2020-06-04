@@ -1,0 +1,11 @@
+booking\abilities\MakeABooking.class
+booking\actions\PickingDate.class
+booking\ui\BookingForm.class
+booking\questions\BookingResult.class
+booking\actions\PickingCustomer$PickingCustomerBuilder.class
+booking\tasks\Booking.class
+booking\features\booking\BookingStory.class
+booking\actions\PickingCustomer.class
+booking\actions\PickingLocation.class
+booking\tasks\OpenTheApplication.class
+booking\ui\BookingPage.class

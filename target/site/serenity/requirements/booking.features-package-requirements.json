@@ -1,0 +1,1 @@
+[{"displayName":"Booking","name":"Booking","id":"Booking","type":"feature","path":"","narrative":{"name":"Narrative","text":""},"children":[{"displayName":"Booking story","name":"Booking story","id":"Booking story","type":"story","path":"booking","narrative":{"name":"Narrative","text":""},"parent":"Booking"}]}]

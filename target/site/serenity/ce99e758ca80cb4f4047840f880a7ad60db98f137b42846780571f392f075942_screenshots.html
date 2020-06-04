@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity Screenplay and JUnit</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f4f08d74558b7bdbbe46ee917881ababcc93ad16fe49d6bfa84be04e7f4d50f4.html">Booking Story</a></span>
+                > <span class="truncate-60"><a
+                    href="ce99e758ca80cb4f4047840f880a7ad60db98f137b42846780571f392f075942.html">Booking with data test </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-06-2020 22:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Booking Story </span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="478dede7257abe7991ff96e77edb3e3b45a1faf9c45fb039f3b47a9c2390c012.html">Firefox
+                                    (context)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Booking with data test
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="875b28a1a27b4636e82bd6c42889c144eea4b247bc3aca68e9c9d275396be853.png" title=" Open the application" width="1366"/>
+                <img src="875b28a1a27b4636e82bd6c42889c144eea4b247bc3aca68e9c9d275396be853.png" title=" Anna opens the Booking page" width="1366"/>
+                <img src="3b596ff596b9203dda1e74178c51fc7b29fd1c9d7a73115acd8198666849585d.png" title=" Anna opens the Booking page (completed)" width="1366"/>
+                <img src="3b596ff596b9203dda1e74178c51fc7b29fd1c9d7a73115acd8198666849585d.png" title=" Open the application (completed)" width="1366"/>
+                <img src="128dc4709d2745b62acc00f3e68d06d1b5caddd6912f81ca0c4a613e7fa11e56.png" title=" Anna booking" width="1366"/>
+                <img src="128dc4709d2745b62acc00f3e68d06d1b5caddd6912f81ca0c4a613e7fa11e56.png" title=" Anna picking location" width="1366"/>
+                <img src="128dc4709d2745b62acc00f3e68d06d1b5caddd6912f81ca0c4a613e7fa11e56.png" title=" Anna clicks on search location field" width="1366"/>
+                <img src="12c9e8e1dff38d809b793eca0d7ad9a56cf188b82276096c94fe3c0b3a9c1d3a.png" title=" Anna clicks on search location field (completed)" width="1366"/>
+                <img src="12c9e8e1dff38d809b793eca0d7ad9a56cf188b82276096c94fe3c0b3a9c1d3a.png" title=" Anna enters 'Phu Quoc' into search location field" width="1366"/>
+                <img src="31ea4f83faada861547f8e9c599c1dbc0a29a6edbb01e90d893305a9178e7b45.png" title=" Anna enters 'Phu Quoc' into search location field (completed)" width="1366"/>
+                <img src="b09218672ae3b0fe0f7c8f87ca9946a29e741b9cb7afd5041a6cd8ba0228cd21.png" title=" Anna clicks on select location in suggestion" width="1366"/>
+                <img src="1171e0c7654371a1ebb50e277187502249f399240678d911f1f41087a67d2e75.png" title=" Anna clicks on select location in suggestion (completed)" width="1366"/>
+                <img src="1171e0c7654371a1ebb50e277187502249f399240678d911f1f41087a67d2e75.png" title=" Anna picking location (completed)" width="1366"/>
+                <img src="1171e0c7654371a1ebb50e277187502249f399240678d911f1f41087a67d2e75.png" title=" Anna books a room from Thu Jun 11 22:14:20 ICT 2020 to Sun Jun 14 22:14:20 ICT 2020" width="1366"/>
+                <img src="1171e0c7654371a1ebb50e277187502249f399240678d911f1f41087a67d2e75.png" title=" Anna clicks on start date span" width="1366"/>
+                <img src="a64e1b8dc810bc76cb3a3405420ff7f9d8996e3774fa30fc97516c9f7102fe9a.png" title=" Anna clicks on start date span (completed)" width="1366"/>
+                <img src="a64e1b8dc810bc76cb3a3405420ff7f9d8996e3774fa30fc97516c9f7102fe9a.png" title=" Anna clicks on start date span" width="1366"/>
+                <img src="774e065fe9425397d489c3573a87c2be3e358b086b5336292892c452e7c42423.png" title=" Anna clicks on start date span (completed)" width="1366"/>
+                <img src="774e065fe9425397d489c3573a87c2be3e358b086b5336292892c452e7c42423.png" title=" Anna books a room from Thu Jun 11 22:14:20 ICT 2020 to Sun Jun 14 22:14:20 ICT 2020 (completed)" width="1366"/>
+                <img src="774e065fe9425397d489c3573a87c2be3e358b086b5336292892c452e7c42423.png" title=" Anna books 2 rooms for 4 adults and 3 childrent" width="1366"/>
+                <img src="774e065fe9425397d489c3573a87c2be3e358b086b5336292892c452e7c42423.png" title=" Anna clicks on customer form" width="1366"/>
+                <img src="ae7e04a0568c5338435480a32db71ab8d4802e1b685ddf023c0ee42a6a5cae35.png" title=" Anna clicks on customer form (completed)" width="1366"/>
+                <img src="ae7e04a0568c5338435480a32db71ab8d4802e1b685ddf023c0ee42a6a5cae35.png" title=" Anna clicks on adult add button" width="1366"/>
+                <img src="392c6334897761e980f5c454743c1574e89c91eae17b16933cac1a3c3144006f.png" title=" Anna clicks on adult add button (completed)" width="1366"/>
+                <img src="392c6334897761e980f5c454743c1574e89c91eae17b16933cac1a3c3144006f.png" title=" Anna clicks on adult add button" width="1366"/>
+                <img src="4020c0c25c54e02dc8e4fa12e050def51cd1272b784d9b3b33f0cabbe609b094.png" title=" Anna clicks on adult add button (completed)" width="1366"/>
+                <img src="4020c0c25c54e02dc8e4fa12e050def51cd1272b784d9b3b33f0cabbe609b094.png" title=" Anna clicks on children add button" width="1366"/>
+                <img src="7a669b771a567424db92b678eadc99cef48d7644f09314121fb685a6203e782d.png" title=" Anna clicks on children add button (completed)" width="1366"/>
+                <img src="7a669b771a567424db92b678eadc99cef48d7644f09314121fb685a6203e782d.png" title=" Anna clicks on children add button" width="1366"/>
+                <img src="756718176854099f732580d541eb14b64f96e933718ea0f21b992eb19fef7386.png" title=" Anna clicks on children add button (completed)" width="1366"/>
+                <img src="756718176854099f732580d541eb14b64f96e933718ea0f21b992eb19fef7386.png" title=" Anna clicks on children add button" width="1366"/>
+                <img src="60546f6b24bcf2ce8838b0a364160d74206faaab8a4f9c81389e4069032fc5a7.png" title=" Anna clicks on children add button (completed)" width="1366"/>
+                <img src="60546f6b24bcf2ce8838b0a364160d74206faaab8a4f9c81389e4069032fc5a7.png" title=" Anna clicks on rooms add button" width="1366"/>
+                <img src="4cf3ea292df89ffdda8657439228decf11734803cc07f59f853f0efd85b120a0.png" title=" Anna clicks on rooms add button (completed)" width="1366"/>
+                <img src="4cf3ea292df89ffdda8657439228decf11734803cc07f59f853f0efd85b120a0.png" title=" Anna books 2 rooms for 4 adults and 3 childrent (completed)" width="1366"/>
+                <img src="4cf3ea292df89ffdda8657439228decf11734803cc07f59f853f0efd85b120a0.png" title=" Anna clicks on search button" width="1366"/>
+                <img src="af5cbb87706eaa3fcbbae7b06c4ae1d8fd2e53b66dee38304ed5c63d3bcf9000.png" title=" Anna clicks on search button (completed)" width="1366"/>
+                <img src="af5cbb87706eaa3fcbbae7b06c4ae1d8fd2e53b66dee38304ed5c63d3bcf9000.png" title=" Anna booking (completed)" width="1366"/>
+                <img src="ed4c8bc611b240e61694cb12d6397900c9869d9fcec7d7956cefe725f62ae248.png" title=" Then The number of matched rooms should be (272): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>
