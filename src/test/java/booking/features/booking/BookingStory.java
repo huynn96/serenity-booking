@@ -55,7 +55,7 @@ public class BookingStory {
         );
 
         then(anna).should(
-                seeThat("The number of matched rooms", BookingResult.of(BookingForm.RESULT_TEXT), equalTo(272))
+                seeThat("The number of matched rooms", BookingResult.of(BookingForm.RESULT_TEXT), equalTo(279))
         );
     }
 }
